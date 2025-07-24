@@ -1,0 +1,167 @@
+.navbar {
+      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px; 
+    margin: 0 auto; 
+    height: 71px; 
+    }
+
+    .nav-links {
+      display: flex;
+      margin-left: auto;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color:#1E1E1E;
+      font-weight: bold;
+    }
+    .hero-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1140px; 
+     margin: 40px auto; 
+    min-height: 461px; 
+    
+    }
+
+    .hero-image img {
+    max-width: 100%; 
+    height: auto;
+    }
+
+    .hero-title {
+    font-size: 60px; 
+    font-weight: 900; 
+    
+    margin-bottom: 20px; 
+    line-height: 1.1; 
+    text-transform: uppercase; 
+   }
+
+   .hero-title ,.orange-text {
+    color: #E95A08; 
+    }
+
+    /* Basic Reset & Global Styles (Optional but Recommended) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Reset & Global Styles (Optional but Recommended) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, sans-serif; /
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8; 
+} */
+
+/* Container for overall width control */
+.container {
+    max-width: 1140px; /* As indicated in the image */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some horizontal padding for smaller screens */
+}
+
+/* Our Plants Section Styling */
+.our-plants-section {
+    padding: 80px 0; /* Vertical padding */
+    text-align: center; /* Center content within the section */
+}
+
+/* Section Header (Our Plants title and description) */
+.section-header {
+    margin-bottom: 60px; /* Space below the header */
+}
+
+.section-header h2 {
+    font-size: 48px; /* Adjust as needed */
+    color: #333; /* Dark text */
+    margin-bottom: 10px;
+    position: relative; /* For positioning the underline */
+    display: inline-block; /* To make underline span only the text */
+}
+
+.section-header .underline {
+    width: 60px; /* Adjust width as needed */
+    height: 4px; /* Thickness of the underline */
+    background-color: #E95A08; /* The orange color from the image */
+    margin: 0 auto 20px; /* Center the underline and add space below */
+    display: block; /* Ensures it takes full width of its container (h2) and centers */
+}
+
+.section-header p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px; /* Limit paragraph width for readability */
+    margin: 0 auto; /* Center the paragraph */
+    line-height: 1.8;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+    justify-content: center; /* Center cards horizontally */
+    gap: 30px; /* Space between cards */
+}
+
+/* Individual Product Card */
+.product-card {
+    background-color: #fff;
+    border-radius: 8px; /* Subtle rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    overflow: hidden; /* Ensures image corners don't stick out */
+    width: calc(25% - 22.5px); /* Approximately 4 cards per row, accounting for gap */
+    display: flex; /* Use flex for internal layout of card content */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally within the card */
+    padding-bottom: 20px; /* Space below content before button */
+    text-align: center; /* Center text inside the card */
+}
+
+.product-card img {
+    width: 100%; /* Image takes full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin-bottom: 15px; /* Space below image */
+}
+
+.product-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-card .price {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.product-card .add-to-cart {
+    background-color: #E95A08; /* Orange button color */
+    
+    border: none;
+    padding: 12px 80px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+
